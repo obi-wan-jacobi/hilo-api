@@ -9,25 +9,20 @@
         "module": "commonjs",
         "sourceMap": false,
         "baseUrl": ".",
-        "rootDir": ".",
         "noImplicitAny": true,
         "strictNullChecks": true,
         "moduleResolution": "node",
         "noUnusedLocals": false,
         "resolveJsonModule": true,
         "types": [
-            "node",
-            "jest"
+            "node"
         ],
         "paths": {
             "src/*": ["src/*"],
-            "local/*": ["test/local/*"],
-            "e2e/*": ["test/e2e/*"]
         }
     },
     "include": [
-        "src/**/*.ts",
-        "test/**/*.ts"
+        "src/**/*",
     ],
     "exclude": [
         "node_modules",
