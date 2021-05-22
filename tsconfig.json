@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+        "experimentalDecorators": true,
+        "allowSyntheticDefaultImports": true,
+        "outDir": "./dist",
+        "rootDir": ".",
+        "allowJs": true,
+        "target": "esnext",
+        "module": "esnext",
+        "sourceMap": false,
+        "baseUrl": ".",
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "moduleResolution": "node",
+        "noUnusedLocals": false,
+        "types": [
+            "node",
+            "jest"
+        ],
+        "paths": {
+            "src/*": ["src/*"],
+            "local/*": ["test/local/*"],
+            "e2e/*": ["test/e2e/*"]
+        }
+    },
+    "include": [
+        "src/**/*.ts",
+        "test/**/*.ts",
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
