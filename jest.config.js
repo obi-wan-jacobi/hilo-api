@@ -7,5 +7,5 @@ module.exports = {
     testMatch: ['**/test/**/*spec.ts?(x)'],
     testPathIgnorePatterns: ['/node_modules/'],
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
-    moduleNameMapper: moduleNameMapper.default('./tsconfig.lint.json'),
+    moduleNameMapper: moduleNameMapper.default('./tsconfig.json'),
 };
